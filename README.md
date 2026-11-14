@@ -1,16 +1,96 @@
-# React + Vite
+# My To-Do List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplikasi To-Do List sederhana yang dibuat menggunakan React.js untuk memenuhi tugas praktikum Pengembangan Frontend.
 
-Currently, two official plugins are available:
+## Deskripsi
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Aplikasi ini digunakan untuk mengelola daftar tugas sehari-hari. Pengguna dapat menambahkan, melihat detail, memperbarui, dan menghapus tugas.
 
-## React Compiler
+Aplikasi dibuat pada sisi frontend menggunakan data dummy dan React State.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Fitur Aplikasi
 
-## Expanding the ESLint configuration
+- Menampilkan daftar tugas.
+- Melihat detail tugas.
+- Menambahkan tugas baru.
+- Memperbarui informasi tugas.
+- Menghapus tugas dengan konfirmasi.
+- Memperbarui tampilan secara langsung tanpa memuat ulang halaman.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Teknologi
+
+- React.js
+- Vite
+- JavaScript
+- CSS
+
+## Struktur Data Tugas
+
+Setiap tugas memiliki atribut:
+
+- `id`
+- `title`
+- `description`
+- `priority`
+- `deadline`
+- `status`
+
+## Cara Menjalankan Aplikasi
+
+Pastikan Node.js sudah terpasang di komputer.
+
+1. Clone repository ini atau download source code.
+2. Buka terminal atau CMD.
+3. Masuk ke folder utama project yang berisi file `package.json`.
+
+Contoh jika folder hasil download bernama `kuis_pemmweblab`:
+
+```bash
+cd kuis_pemweblab
+```
+
+4. Instal seluruh dependency:
+
+```bash
+dir
+```
+
+5. Jalankan aplikasi:
+
+```bash
+npm run dev
+```
+
+6. Buka alamat lokal yang muncul di terminal, biasanya:
+
+```text
+http://localhost:5173/
+```
+
+
+## Screenshot Hasil Implementasi
+
+### 1. Halaman Utama
+
+!<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/2429d85d-e5cb-4fe9-ae2b-a92c56fce87d" />
+
+
+### 2. Form Tambah Todo
+
+!<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ca4616b4-081b-44f7-b32b-2520d8b421d7" />
+
+
+### 3. Detail Todo
+
+!<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/1815b358-900f-4cb7-82cd-c71e44e143ad" />
+
+
+### 4. Form Update Todo
+
+!<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/0cf97337-e7b9-4353-aede-9c017669125b" />
+
+### 5. Menghapus todo
+
+!<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/1f0e2d24-09ed-4024-b0d5-488d4c7ba167" />
+
+---
