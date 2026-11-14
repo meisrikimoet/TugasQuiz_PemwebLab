@@ -1,3 +1,11 @@
+Nama : Meisrik Wahyuni 
+
+Nim  : 251401014
+
+Lab  : 3
+
+Pemrograman Web
+
 # My To-Do List
 
 Aplikasi To-Do List sederhana yang dibuat menggunakan React.js untuk memenuhi tugas praktikum Pengembangan Frontend.
